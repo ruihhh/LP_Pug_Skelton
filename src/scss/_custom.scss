@@ -1,0 +1,30 @@
+$white: #fff;
+$black: #333;
+$blue: #00b7ee;
+$red-pink: #ff3976;
+
+$font-size-base: 1rem; // 16px
+$font-size-lg: ($font-size-base * 1.125); // 18px
+$font-size-sm: ($font-size-base * .875); // 14px
+
+$font-family-sans-serif: "Noto Sans Japanese","メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3",HiraKakuProN-W3,"Hiragino Kaku Gothic Pro",NanumGothic,"Malgun Gothic",sans-serif;
+$font-family-serif: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+$font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base: $font-family-sans-serif;
+
+$container-md-max: 768px;
+$container-lg-max: 1030px;
+
+$height-breakpoint: 1048px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 300px,
+  md: 768px,
+  lg: 1048px
+);
+
+$container-max-widths: (
+  sm: 768px,
+  md: 1030px
+);
