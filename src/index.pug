@@ -1,6 +1,10 @@
-doctype html
-html
-  head
-    include partials/html_head.pug
-  body
-    main
+extends /_layouts/_default.pug
+block var
+  - metas = {}
+  - metas.title = 'title'
+  - metas.url = 'url'
+  - metas.image = 'image'
+  - metas.site_name = 'site_name'
+  - metas.description = 'description'
+block append meta
+  +meta(metas)

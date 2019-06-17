@@ -1,0 +1,13 @@
+block var
+doctype html
+html(lang="ja")
+  block head
+    include ../_partials/_head.pug
+  body
+    block header
+      include ../_partials/_header.pug
+    block content
+      .content
+        p デフォルトのコンテンツです。
+    block footer
+      include ../_partials/_footer.pug
