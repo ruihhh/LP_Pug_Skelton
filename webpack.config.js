@@ -62,6 +62,11 @@ module.exports = {
       favicon: 'images/favicon.ico',
       template: 'index.pug'
     }),
+    new HtmlWebpackPlugin({
+      favicon: 'images/favicon.ico',
+      filename: './loggedin/index.html',
+      template: 'loggedin.pug'
+    }),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
