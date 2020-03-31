@@ -1,7 +1,7 @@
 version: "3"
 services:
   node:
-    image: node:latest
+    image: node:13.12.0-stretch
     ports:
       - '8080:3000'
     volumes:
