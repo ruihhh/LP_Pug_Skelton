@@ -16,13 +16,14 @@ module.exports = {
         test: /\.(jpg|png)$/,
         loaders: 'file-loader',
         options: {
-            name: '[path][name].[ext]',
-            outputPath: '/',
-            publicPath: '/',
-            pngquant: {
-              quality: '30-70',
-              speed: 1
-            },
+          esModule: false,
+          name: '[path][name].[ext]',
+          outputPath: '/',
+          publicPath: '/',
+          pngquant: {
+            quality: '30-70',
+            speed: 1
+          },
         }
       },
       {
@@ -69,6 +70,8 @@ module.exports = {
       jQuery: 'jquery',
       'window.jQuery': 'jquery'
     }),
-    new MiniCssExtractPlugin('style.css')
+    new MiniCssExtractPlugin({
+      filename: 'style.css'
+    })
   ]
 }

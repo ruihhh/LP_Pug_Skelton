@@ -11,29 +11,27 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "aos": "^2.3.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "babel-loader": "^8.1.0",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.5.0",
     "browser-sync": "^2.26.7",
     "browser-sync-webpack-plugin": "^2.2.2",
-    "css-loader": "^3.4.2",
+    "css-loader": "^3.5.3",
     "mini-css-extract-plugin": "^0.9.0",
     "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.0.3",
+    "html-webpack-plugin": "^4.3.0",
     "imagemin-pngquant": "^8.0.0",
-    "jquery": "^3.4.1",
-    "jquery-smooth-scroll": "^2.2.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",
     "sass-loader": "^8.0.2",
-    "style-loader": "^1.1.3",
     "throttle-debounce": "^2.1.0",
-    "webpack": "^4.42.1",
+    "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }

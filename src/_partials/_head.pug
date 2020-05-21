@@ -1,21 +1,22 @@
-meta(charset='utf-8')
-meta(content="IE=edge" http-equiv="X-UA-Compatible")
-meta(content="telephone=no" name="format-detection")
-meta(content="width=device-width,user-scalable=0" name="viewport")
-block meta
-  mixin meta(metas)
-    meta(content=metas.description name="description")
-    meta(content=metas.keywords name="keywords")
-    meta(content=metas.author name="author")
-    meta(content=metas.title property="og:title")
-    meta(content=metas.url property="og:url")
-    meta(content=metas.description property="og:description")
-    meta(content=metas.image property="og:image")
-    meta(content=metas.site_name property="og:site_name")
-block title
-block link
-  link(rel='stylesheet', href="css/style.css")
-block head_script
-  script(async="" src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-Y")
-  script.
-    window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag('js', new Date());gtag('config', 'UA-XXXXXXXX-Y');
+head
+  meta(charset='utf-8')
+  meta(content="IE=edge" http-equiv="X-UA-Compatible")
+  meta(content="telephone=no" name="format-detection")
+  meta(content="width=device-width,user-scalable=0" name="viewport")
+  block meta
+    mixin meta(metas)
+      meta(content=metas.description name="description")
+      meta(content=metas.keywords name="keywords")
+      meta(content=metas.author name="author")
+      meta(content=metas.title property="og:title")
+      meta(content=metas.url property="og:url")
+      meta(content=metas.description property="og:description")
+      meta(content=metas.image property="og:image")
+      meta(content=metas.site_name property="og:site_name")
+  block title
+  block link
+    link(rel='stylesheet', href="css/style.css")
+  block head_script
+    script(async="" src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-Y")
+    script.
+      window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag('js', new Date());gtag('config', 'UA-XXXXXXXX-Y');
