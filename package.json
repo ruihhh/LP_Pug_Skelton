@@ -24,7 +24,7 @@
     "imagemin-pngquant": "^9.0.0",
     "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "pug-loader": "^2.4.0",
     "sass-loader": "^9.0.2",
     "throttle-debounce": "^2.2.1",
