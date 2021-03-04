@@ -14,7 +14,7 @@ module.exports = {
     rules: [
       {
         test: /\.(jpg|png)$/,
-        loaders: 'file-loader',
+        loader: 'file-loader',
         options: {
           esModule: false,
           name: '[path][name].[ext]',
@@ -51,8 +51,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.optimize.OccurrenceOrderPlugin(),
-    new webpack.optimize.AggressiveMergingPlugin(),
     new BrowserSyncPlugin({
       server: { baseDir: ['./www'] }
     }),

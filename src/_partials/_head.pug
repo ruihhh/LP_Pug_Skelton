@@ -5,6 +5,7 @@ head
   meta(content="width=device-width,user-scalable=0" name="viewport")
   block meta
     mixin meta(metas)
+      title #{metas.title}
       meta(content=metas.description name="description")
       meta(content=metas.keywords name="keywords")
       meta(content=metas.author name="author")
@@ -13,7 +14,6 @@ head
       meta(content=metas.description property="og:description")
       meta(content=metas.image property="og:image")
       meta(content=metas.site_name property="og:site_name")
-  block title
   block link
     link(rel='stylesheet', href="css/style.css")
   block head_script
